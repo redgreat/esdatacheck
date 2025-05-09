@@ -1,0 +1,23 @@
+[mysql]
+host = localhost
+port = 3306
+user = root
+password = password
+database = your_database
+charset = utf8mb4
+
+[elasticsearch]
+host = localhost
+port = 9200
+user = 
+password = 
+index_name = your_index
+
+[wechat]
+to_group_key = your_group_webhook_key
+to_user = 
+
+[check]
+sample_size = 10
+check_interval = 3600
+
